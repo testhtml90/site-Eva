@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@200&display=swap");
+@font-face {
+  font-family: "Futura PT light";
+  src: url("../FuturaPT/FuturaPTLight.otf");
+}
+@font-face {
+  font-family: "Futura PT light";
+  src: url("");
+}
+
+/*##############################  #########################*/
+body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  min-width: 200px;
+}
+header {
+  list-style: none;
+  text-decoration: none;
+  margin-top: 0;
+}
+h3 {
+  list-style: none;
+  text-decoration: none;
+  margin-top: 32px;
+  font-family: "Spartan", "Futura PT light";
+  font-size: 15px;
+  letter-spacing: 2px;
+  color: black;
+}
+h1 {
+  margin-top: 51px;
+  font-family: "Bebas Neue", "Zen Tokyo Zoo", sans-serif;
+  margin-bottom: 0;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  margin-top: 0;
+  margin-bottom: 70px;
+}
+
+section {
+  margin-left: 3.39vh;
+  margin-right: 3.39vh;
+
+  text-align: left;
+}
+
+section h4 {
+  font-family: "Spartan", "Futura PT light";
+  font-size: 3vh;
+  font-weight: 500;
+}
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2vh;
+  font-weight: 500;
+  margin-bottom: 8vh;
+}
+h5 {
+  font-family: "Spartan", "Futura PT light";
+  font-size: 2.3vh;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+h6 {
+  margin-top: 15px;
+  font-family: "Spartan", "Futura PT light";
+  font-size: 2vh;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+#h7 {
+  margin-top: 5px;
+  font-family: "Spartan", "Futura PT light";
+  font-size: 1.5vh;
+  font-weight: 500;
+}
+
+/*---------------------------------------------*/
+img {
+  height: 100%;
+  width: 90%;
+
+  background-color: #f9f9f9;
+  border: none;
+  border: 0px #f9f9f9;
+}
+
+footer .h4 {
+  margin-top: 90px;
+  margin-bottom: 90px;
+  font-family: "Spartan", "Futura PT light";
+  font-weight: 200;
+}
+
+@media screen and (min-width: 650px) {
+  body {
+    text-align: center;
+    margin-left: 24.5vh;
+    margin-right: 24.5vh;
+  }
+  header {
+    list-style: none;
+    text-decoration: none;
+    margin-top: 0;
+  }
+  h3 {
+    text-align: right;
+    list-style: none;
+    text-decoration: none;
+    margin-top: 126px;
+    font-family: "Spartan", "Futura PT light";
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: #afaeaf;
+    background-color: black;
+  }
+  h1 {
+    text-align: left;
+    position: relative;
+    top: 0;
+    left: 0;
+    font-family: "Bebas Neue", "Zen Tokyo Zoo", sans-serif;
+    margin-bottom: 0;
+  }
+  h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    margin-top: 0;
+    margin-bottom: 70px;
+  }
+}
