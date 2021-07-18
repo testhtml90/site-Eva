@@ -33,11 +33,15 @@ h3 {
   font-size: 15px;
   letter-spacing: 2px;
   color: black;
+  background-color: none;
 }
-h1 {
+h1,
+.a-menu {
   margin-top: 51px;
   font-family: "Bebas Neue", "Zen Tokyo Zoo", sans-serif;
   margin-bottom: 0;
+  text-decoration: none;
+  color: black;
 }
 h2 {
   font-family: "Montserrat", sans-serif;
@@ -104,8 +108,18 @@ footer .h4 {
 @media screen and (min-width: 650px) {
   body {
     text-align: center;
-    margin-left: 24.5vh;
-    margin-right: 24.5vh;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  section {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr;
+    grid-template-areas: "left right";
+    gap: 5vh;
+  }
+  .left-grid {
+    grid-area: left;
   }
   header {
     list-style: none;
@@ -120,11 +134,13 @@ footer .h4 {
     font-family: "Spartan", "Futura PT light";
     font-size: 15px;
     letter-spacing: 2px;
-    color: #afaeaf;
-    background-color: black;
+    color: black;
   }
-  h1 {
+  h1,
+  .a-menu {
     text-align: left;
+    list-style: none;
+    text-decoration: none;
     position: relative;
     top: 0;
     left: 0;
@@ -136,5 +152,14 @@ footer .h4 {
     font-size: 17px;
     margin-top: 0;
     margin-bottom: 70px;
+  }
+  img {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .bolc-right {
+    grid-area: right;
   }
 }
