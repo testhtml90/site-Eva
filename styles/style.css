@@ -127,6 +127,8 @@ footer h4 {
 
     display: flex;
     justify-content: space-evenly;
+
+    opacity: 1;
   }
   .non-resp img {
     height: 50vh;
