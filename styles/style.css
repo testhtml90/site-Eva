@@ -68,6 +68,12 @@ footer h4 {
   font-family: "Spartan", "Futura PT light";
   font-weight: 500;
 }
+.ligne-non-resp {
+opacity: 0;
+position: absolute;
+top: 0;
+left: 0;
+}
 
 @media screen and (min-width: 1200px) {
   body {
@@ -104,6 +110,7 @@ footer h4 {
     margin-top: 0;
     margin-bottom: 70px;
   }
+
   .non-resp {
     opacity: 0;
     position: absolute;
