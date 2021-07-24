@@ -43,6 +43,7 @@ a {
 }
 h1 {
   margin-top: 51px;
+  /* font-family: "Bebas Neue", "Zen Tokyo Zoo", sans-serif; */
   font-family: "Zen Tokyo Zoo", sans-serif;
   margin-bottom: 0;
 }
@@ -118,7 +119,8 @@ footer h4 {
     text-align: left;
     position: relative;
     margin-top: 0;
-    font-family: "Bebas Neue", "Zen Tokyo Zoo", sans-serif;
+    /* font-family: "Bebas Neue", "Zen Tokyo Zoo", sans-serif; */
+    font-family: "Zen Tokyo Zoo", sans-serif;
     margin-bottom: 0;
   }
   .menu-non-resp h2 {
