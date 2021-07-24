@@ -105,11 +105,16 @@ footer .h4 {
   font-weight: 200;
 }
 
-@media screen and (min-width: 650px) {
+/*  @media screen and (min-width: 1200px) { */
+@media screen and (min-width: 750px) {
   body {
     text-align: center;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  a {
+    text-decoration: none;
+    list-style: none;
   }
   section {
     display: grid;
@@ -137,7 +142,7 @@ footer .h4 {
     color: black;
   }
   h1,
-  .a-menu {
+  .a-Menu {
     text-align: left;
     list-style: none;
     text-decoration: none;
@@ -146,6 +151,7 @@ footer .h4 {
     left: 0;
     font-family: "Bebas Neue", "Zen Tokyo Zoo", sans-serif;
     margin-bottom: 0;
+    color: black;
   }
   h2 {
     font-family: "Montserrat", sans-serif;
@@ -158,8 +164,17 @@ footer .h4 {
     position: absolute;
     top: 0;
     left: 0;
+    z-index: -100;
   }
-  .bloc-right {
+  .bolc-right {
     grid-area: right;
+  }
+  footer h4 {
+    text-align: right;
+    margin-top: 90px;
+    margin-bottom: 90px;
+
+    font-family: "Spartan", "Futura PT light";
+    font-weight: 500;
   }
 }

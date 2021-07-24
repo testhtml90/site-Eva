@@ -12,7 +12,7 @@
   src: url("");
 }
 
-/*##############################  #########################*/
+/*-------------------------ECRAN TEL (-1200px de large)---------------------------------*/
 body {
   text-align: center;
   margin: 0;
@@ -20,13 +20,19 @@ body {
   background-color: #f9f9f9;
   min-width: 200px;
 }
+.menu-non-resp {
+  opacity: 0;
+  position: absolute;
+  top: -1000px;
+  left: -1000px;
+}
 header {
   list-style: none;
   text-decoration: none;
   margin-top: 0;
-  z-index: 100;
 }
-h3, a {
+h3,
+a {
   list-style: none;
   text-decoration: none;
   margin-top: 32px;
@@ -69,24 +75,31 @@ footer h4 {
   font-family: "Spartan", "Futura PT light";
   font-weight: 500;
 }
-.ligne-non-resp {
+.non-resp {
   opacity: 0;
   position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -100;
+  top: -10000px;
+  left: -10000px;
 }
 
+/*-------------------------ECRAN PC (+1200px de large)---------------------------------*/
+/* @media screen and (min-width: 650px) { */
 @media screen and (min-width: 1200px) {
   body {
     text-align: center;
     margin-left: 24.5vh;
     margin-right: 24.5vh;
+    margin-bottom: 0;
   }
-  header {
-    list-style: none;
-    text-decoration: none;
-    margin-top: 0;
+  .menu-resp {
+    opacity: 0;
+    position: absolute;
+    top: -1000px;
+    left: -1000px;
+  }
+  .menu-non-resp {
+    opacity: 1;
+    position: static;
   }
   h3 {
     text-align: right;
@@ -112,14 +125,18 @@ footer h4 {
     margin-top: 0;
     margin-bottom: 70px;
   }
-
   .non-resp {
+    opacity: 1;
+    position: static;
+  }
+  .resp {
     opacity: 0;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: -1000px;
+    left: -100000px;
+    z-index: -100;
   }
-  .ligne-non-resp {
+  .ligne {
     text-align: center;
     margin: 0 auto;
     margin-bottom: 5vh;
@@ -127,15 +144,21 @@ footer h4 {
 
     display: flex;
     justify-content: space-evenly;
-
-    opacity: 1;
   }
-  .non-resp img {
+  img {
     height: 50vh;
     width: 50vh;
 
     background-color: #f9f9f9;
     border: none;
     border: 0px #f9f9f9;
+  }
+  footer h4 {
+    text-align: right;
+    margin-top: 90px;
+    margin-bottom: 90px;
+
+    font-family: "Spartan", "Futura PT light";
+    font-weight: 500;
   }
 }
