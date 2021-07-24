@@ -32,7 +32,7 @@ header {
   margin-top: 0;
 }
 h3,
-a {
+.a-About {
   list-style: none;
   text-decoration: none;
   margin-top: 32px;
@@ -41,17 +41,67 @@ a {
   letter-spacing: 2px;
   color: #afaeaf;
 }
-h1 {
+h1,
+.a-Menu {
   margin-top: 51px;
-  font-family: "Bebas Neue", "Zen Tokyo Zoo", sans-serif;
-  /* font-family: "Zen Tokyo Zoo", sans-serif; */
+  font-family: sans-serif;
   margin-bottom: 0;
+  text-decoration: none;
+  color: black;
 }
 h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 17px;
   margin-top: 0;
   margin-bottom: 70px;
+}
+.content {
+  text-align: center;
+  margin-left: 3.5vh;
+  margin-right: 3.5vh;
+}
+.content h4 {
+  text-align: left;
+  font-family: "Spartan", "Futura PT light";
+  font-size: 2.5vh;
+  font-weight: 500;
+}
+.content p {
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2vh;
+  font-weight: 500;
+  margin-bottom: 8vh;
+}
+.content img {
+  max-width: 100%;
+  margin-bottom: 45px;
+}
+.nav {
+  text-align: center;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  margin-left: 3.5vh;
+  margin-right: 3.5vh;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-right {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.nav-black {
+  font-family: "Spartan", "Futura PT light";
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+.nav-grey {
+  font-family: "Spartan", "Futura PT light";
+  list-style: none;
+  text-decoration: none;
+  color: #afaeaf;
 }
 .ligne {
   text-align: center;
@@ -61,7 +111,8 @@ h2 {
   display: flex;
   justify-content: space-evenly;
 }
-img {
+.resp img,
+.non-resp img {
   height: 23.3vh;
   width: 23.3vh;
 
@@ -119,8 +170,8 @@ footer h4 {
     text-align: left;
     position: relative;
     margin-top: 0;
-    font-family: "Bebas Neue", "Zen Tokyo Zoo", sans-serif;
-    /* font-family: "Zen Tokyo Zoo", sans-serif; */
+    /* font-family: "Bebas Neue", "Zen Tokyo Zoo", sans-serif; */
+    font-family: sans-serif;
     margin-bottom: 0;
   }
   .menu-non-resp h2 {
@@ -160,7 +211,15 @@ footer h4 {
     display: flex;
     justify-content: space-evenly;
   }
-  img {
+  .resp img {
+    height: 50vh;
+    width: 50vh;
+
+    background-color: #f9f9f9;
+    border: none;
+    border: 0px #f9f9f9;
+  }
+  .non-resp img {
     height: 50vh;
     width: 50vh;
 
