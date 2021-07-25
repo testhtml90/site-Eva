@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+@font-face {
+  font-family: "Futura PT light";
+  src: url("../FuturaPT/FuturaPTLight.otf");
+}
+@font-face {
+  font-family: "Futura PT light";
+  src: url("");
+}
+
+/*##############################  #########################*/
+html {
+    margin: 0;
+    text-align: center;
+    list-style-type: none;
+    list-style: none;
+    text-decoration: none;
+}
+body {
+  margin: 0;
+  text-align: center;
+  list-style-type: none;
+  list-style: none;
+  text-decoration: none;
+  background-color: #f9f9f9;
+}
+.content {
+  margin-top: 0;
+  /* margin-left: 10%;
+    margin-right: 10%;
+    width: 80%; */
+  background-color: #f9f9f9;
+  /* background: black; */
+}
+h3 {
+  margin-top: 32px;
+  font-family: "Spartan", "Futura PT light";
+  font-size: 15px;
+  letter-spacing: 2px;
+  color: #afaeaf;
+}
+h1 {
+  margin-top: 51px;
+  font-family: "Bebas Neue", "Zen Tokyo Zoo", sans-serif;
+  margin-bottom: 0;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  margin-top: 0;
+  margin-bottom: 70px;
+}
+/*----------------------GRID-----------------------*/
+
+.grid-parent {
+  text-align: center;
+  background-color: blue;
+  margin-left: 25px;
+  margin-right: 25px;
+  /* width: 80%; */
+}
+.ligne-1,
+.ligne-2,
+.ligne-3,
+.ligne-4,
+.ligne-5,
+.ligne-6,
+.ligne-7,
+.ligne-8,
+.ligne-9 {
+  text-align: center;
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.image {
+  background-size: cover;
+  width: 172px;
+  height: 172px;
+  background-position: center;
+}
+.image img {
+  display: none;
+}
+
+
+@media screen and (min-width: 650px) {
+  body {
+  }
+}
