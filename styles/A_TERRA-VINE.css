@@ -7,10 +7,6 @@
   font-family: "Futura PT light";
   src: url("../FuturaPT/FuturaPTLight.otf");
 }
-@font-face {
-  font-family: "Futura PT light";
-  src: url("");
-}
 
 /*-------------------------ECRAN TEL (-1200px de large)---------------------------------*/
 body {
@@ -19,6 +15,9 @@ body {
   padding: 0;
   background-color: #f9f9f9;
   min-width: 200px;
+}
+img {
+  background: grey;
 }
 .menu-non-resp {
   opacity: 0;
@@ -133,7 +132,10 @@ footer h4 {
   top: -10000px;
   left: -10000px;
 }
-
+.resp img:hover,
+.non-resp img:hover {
+  opacity: 0.5;
+}
 /*-------------------------ECRAN PC (+1200px de large)---------------------------------*/
 /* @media screen and (min-width: 650px) { */
 @media screen and (min-width: 1200px) {
@@ -142,6 +144,9 @@ footer h4 {
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 0;
+  }
+  img {
+    background: grey;
   }
   .menu-resp {
     opacity: 0;
@@ -160,10 +165,10 @@ footer h4 {
     grid-template-rows: 1fr;
     grid-template-areas: "left right";
   }
-  .left-grid {
+  .menu-left-grid {
     grid-area: left;
   }
-  .right-grid {
+  .menu-right-grid {
     grid-area: right;
   }
   .menu-non-resp h1 {
@@ -194,6 +199,19 @@ footer h4 {
   .non-resp {
     opacity: 1;
     position: static;
+  }
+  .content {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 1fr;
+    grid-template-areas: "left right";
+    gap: 35px;
+  }
+  .content-right-grid {
+    grid-area: right;
+  }
+  .content-left-grid {
+    grid-area: left;
   }
   .resp {
     opacity: 0;
@@ -234,5 +252,9 @@ footer h4 {
 
     font-family: "Spartan", "Futura PT light";
     font-weight: 500;
+  }
+  .resp img:hover,
+  .non-resp img:hover {
+    opacity: 0.5;
   }
 }

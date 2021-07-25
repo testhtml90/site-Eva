@@ -7,10 +7,6 @@
   font-family: "Futura PT light";
   src: url("../FuturaPT/FuturaPTLight.otf");
 }
-@font-face {
-  font-family: "Futura PT light";
-  src: url("");
-}
 
 /*-------------------------ECRAN TEL (-1200px de large)---------------------------------*/
 body {
@@ -19,6 +15,13 @@ body {
   padding: 0;
   background-color: #f9f9f9;
   min-width: 200px;
+}
+img {
+  background: grey;
+}
+.resp img:hover,
+.non-resp img:hover {
+  opacity: 0.5;
 }
 .menu-non-resp {
   opacity: 0;
@@ -91,6 +94,13 @@ footer h4 {
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 0;
+  }
+  img {
+    background: grey;
+  }
+  .resp img:hover,
+  .non-resp img:hover {
+    opacity: 0.5;
   }
   .menu-resp {
     opacity: 0;

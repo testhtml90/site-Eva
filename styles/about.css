@@ -7,10 +7,6 @@
   font-family: "Futura PT light";
   src: url("../FuturaPT/FuturaPTLight.otf");
 }
-@font-face {
-  font-family: "Futura PT light";
-  src: url("");
-}
 
 /*-------------------------ECRAN TEL (-1200px de large)---------------------------------*/
 body {
@@ -19,6 +15,9 @@ body {
   padding: 0;
   background-color: #f9f9f9;
   min-width: 200px;
+}
+img {
+  background: grey;
 }
 header {
   list-style: none;
@@ -35,8 +34,7 @@ h3 {
   color: black;
   background-color: none;
 }
-h1,
-.a-Menu {
+h1 {
   margin-top: 51px;
   /* font-family: "Bebas Neue", "Zen Tokyo Zoo", sans-serif; */
   font-family: sans-serif;
@@ -119,6 +117,9 @@ footer .h4 {
     margin-left: 10%;
     margin-right: 10%;
   }
+  img {
+    background: grey;
+  }
   a {
     text-decoration: none;
     list-style: none;
@@ -150,8 +151,8 @@ footer .h4 {
     text-align: left;
     position: relative;
     margin-top: 0;
-    font-family: "Bebas Neue", "Zen Tokyo Zoo", sans-serif;
-    /* font-family: "Zen Tokyo Zoo", sans-serif; */
+    /* font-family: "Bebas Neue", "Zen Tokyo Zoo", sans-serif; */
+    font-family: sans-serif;
     margin-bottom: 0;
   }
   .menu-non-resp h2 {
@@ -207,9 +208,8 @@ footer .h4 {
     position: relative;
     top: 0;
     left: 0;
-    font-family: "Bebas Neue", "Zen Tokyo Zoo", sans-serif;
     /* font-family: "Bebas Neue", "Zen Tokyo Zoo", sans-serif; */
-    font-family: "Zen Tokyo Zoo", sans-serif;
+    font-family: sans-serif;
 
     margin-bottom: 0;
     color: black;
