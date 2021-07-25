@@ -17,7 +17,7 @@ body {
   min-width: 200px;
 }
 img {
-  background: grey;
+  background: white;
 }
 .resp img:hover,
 .non-resp img:hover {
@@ -96,7 +96,7 @@ footer h4 {
     margin-bottom: 0;
   }
   img {
-    background: grey;
+    background: white;
   }
   .resp img:hover,
   .non-resp img:hover {
@@ -174,7 +174,6 @@ footer h4 {
     height: 50vh;
     width: 50vh;
 
-    background-color: #f9f9f9;
     border: none;
     border: 0px #f9f9f9;
   }
