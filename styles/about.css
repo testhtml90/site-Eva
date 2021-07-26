@@ -16,6 +16,15 @@ body {
   background-color: #f9f9f9;
   min-width: 200px;
 }
+*:visited {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+a {
+  text-decoration: none;
+  list-style: none;
+}
 img {
   background: grey;
 }
@@ -101,14 +110,18 @@ img {
   border: none;
   border: 0px #f9f9f9;
 }
-
 footer .h4 {
   margin-top: 90px;
   margin-bottom: 90px;
   font-family: "Spartan", "Futura PT light";
   font-weight: 200;
 }
-
+.content a,
+.content a:visited {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
 /*-------------------------ECRAN PC (+1200px de large)---------------------------------*/
 /*  @media screen and (min-width: 1200px) { */
 @media screen and (min-width: 750px) {
@@ -237,5 +250,15 @@ footer .h4 {
 
     font-family: "Spartan", "Futura PT light";
     font-weight: 500;
+  }
+  a:visited {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+  }
+  .content a {
+    margin-left: 50px;
+    text-decoration: none;
+    list-style: none;
   }
 }
