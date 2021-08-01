@@ -16,7 +16,8 @@ body {
   background-color: #f9f9f9;
   min-width: 200px;
 }
-*:visited {
+*:visited,
+a:visited{
   text-decoration: none;
   list-style: none;
   color: black;
@@ -25,6 +26,7 @@ a,
 a:visited{
   text-decoration: none;
   list-style: none;
+  color: black;
 }
 img {
   background: grey;
