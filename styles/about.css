@@ -21,7 +21,8 @@ body {
   list-style: none;
   color: black;
 }
-a {
+a, 
+a:visited{
   text-decoration: none;
   list-style: none;
 }
