@@ -8,7 +8,7 @@
   src: url("../FuturaPT/FuturaPTLight.otf");
 }
 
-/*-------------------------ECRAN TEL (-1200px de large)---------------------------------*/
+/*-------------------------ECRAN TEL (-900px de large)---------------------------------*/
 body {
   text-align: center;
   margin: 0;
@@ -86,9 +86,9 @@ footer h4 {
   left: -10000px;
 }
 
-/*-------------------------ECRAN PC (+1200px de large)---------------------------------*/
-/* @media screen and (min-width: 650px) { */
-@media screen and (min-width: 1200px) {
+/*-------------------------ECRAN PC (+900px de large)---------------------------------*/
+/*@media screen and (min-width: 1200px) {*/
+@media screen and (min-width: 900px) { 
   body {
     text-align: center;
     margin-left: 10%;
